@@ -8,24 +8,24 @@ namespace hospital
 {
     public class Doctor
     {
-        public int Doctor_ID { get; set; }
-        public string First_Name { get; set; }
-        public string Last_Name { get; set; }
+        public int DoctorID { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
         public string Specialization { get; set; }
-        public string Contact_Number { get; set; }
+        public string ContactNumber { get; set; }
 
         public string Email { get; set; }
-        public string Clinic_Address { get; set; }
+        public string ClinicAddress { get; set; }
 
-        public Doctor(int doctor_ID, string first_Name, string last_Name, string specialization, string contact_Number, string email, string clinic_Address)
+        public Doctor(int doctorID, string firstName, string lastName, string specialization, string contactNumber, string email, string clinicAddress)
         {
-            Doctor_ID = doctor_ID;
-            First_Name = first_Name;
-            Last_Name = last_Name;
+            DoctorID = doctorID;
+            FirstName = firstName;
+            LastName = lastName;
             Specialization = specialization;
-            Contact_Number = contact_Number;
+            ContactNumber = contactNumber;
             Email = email;
-            Clinic_Address = clinic_Address;
+            ClinicAddress = clinicAddress;
 
 
         }
