@@ -9,18 +9,18 @@ namespace hospital
     public class Lab_test
     {
 
-        public int Test_ID { get; set; }
-        public string Test_Name { get; set; }
-        public string Test_Description { get; set; }
-        public string Normal_Range { get; set; }
+        public int TestID { get; set; }
+        public string TestName { get; set; }
+        public string TestDescription { get; set; }
+        public string NormalRange { get; set; }
         public decimal Cost { get; set; }
 
         public Lab_test(int testID, string testName, string testDescription, string normalRange, decimal cost)
         {
-            Test_ID = testID;
-            Test_Name = testName;
-            Test_Description = testDescription;
-            Normal_Range = normalRange;
+            TestID = testID;
+            TestName = testName;
+            TestDescription = testDescription;
+            NormalRange = normalRange;
             Cost = cost;
         }
     }
