@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace hospital
 { 
-    public class Lab_test
+    public class LabTest
     {
 
         public int TestID { get; set; }
@@ -15,13 +15,13 @@ namespace hospital
         public string NormalRange { get; set; }
         public decimal Cost { get; set; }
 
-        public Lab_test(int testID, string testName, string testDescription, string normalRange, decimal cost)
+        public LabTest(int testID, string testName, string testDescription, string normalRange, decimal cost)
         {
             TestID = testID;
             TestName = testName;
             TestDescription = testDescription;
             NormalRange = normalRange;
-            Cost = cost;
+            Cost =  cost;
         }
     }
 
